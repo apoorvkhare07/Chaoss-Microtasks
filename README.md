@@ -14,7 +14,7 @@
 **Microtask 1**: Produce a listing of the number of new committers per month, and the number of commits for each of them, as a                  table and as a CSV file. Use the GrimoireLab enriched index for git.
 
 **Solution**:
-The python code for producing the result is in the [microtask_1](https://github.com/apoorvkhare07/Reporting-chaoss-Metrics/tree/master/microtask_1) directory. It also contains a csv file with the final result.
+The python code for producing the result is in the [microtask_1](https://github.com/apoorvkhare07/Chaoss-Microtasks/tree/master/microtask_1) directory. It also contains a csv file with the final result.
 
 I have used [p2o.py](https://grimoirelab.gitbooks.io/tutorial/grimoireelk/a-simple-dashboard.html) for data retrieval,enriching data and uploading it to Elasticsearch.
 
@@ -29,10 +29,10 @@ I have analysed [grimoirelab's perceval](https://github.com/chaoss/grimoirelab-p
 *__Final Output__*
 
 New Commiters each month
-![New Commiters each month: ](https://github.com/apoorvkhare07/Reporting-chaoss-Metrics/blob/master/microtask_1/commiters_eachmonth.png  ) 
+![New Commiters each month: ](https://github.com/apoorvkhare07/Chaoss-Microtasks/blob/master/microtask_1/commiters_eachmonth.png  ) 
 
 Total number of commits for each user
-![Total number of commits for each user: ](https://github.com/apoorvkhare07/Reporting-chaoss-Metrics/blob/master/microtask_1/authors.png)
+![Total number of commits for each user: ](https://github.com/apoorvkhare07/Chaoss-Microtasks/blob/master/microtask_1/authors.png)
 
 ---
 
