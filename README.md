@@ -74,7 +74,7 @@ I have used [github developers api](https://developer.github.com/v3/) to retriev
 In order to measure data relevant to Pull requests,Issues etc. 
 Also I have used python libraries like pandas, datetime for visualizing data in form of tables and generaating csv file.
 
-In order to run the [notebook](https://github.com/apoorvkhare07/Chaoss-Microtasks/blob/master/microtask_3/Microtask_3.ipynb), download it and replace `url` with the url of the github organisation whose repositories you want to analyse, replace `raw_index` and `enriched_index` with your desired index names and run the script to get the desired result.
+In order to run the [notebook](https://github.com/apoorvkhare07/Chaoss-Microtasks/blob/master/microtask_3/microtask_3.ipynb), download it and replace `url` with the url of the github organisation whose repositories you want to analyse, replace `raw_index` and `enriched_index` with your desired index names and run the script to get the desired result.
 
 I have analysed [CHAOSS](https://github.com/chaoss/) organisation.
 
