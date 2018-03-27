@@ -63,6 +63,27 @@ Plot showing time to open and time to close in days:
 ---
  
 **Microtask 3**: Produce a listing of repositories, as a table and as CSV file, with the number of commits authored, issues opened, and pull requests opened, during the last three months, ordered by the total number (commits plus issues plus pull requests).
+**Solution**:
+The python code for producing the result is in the [microtask_3](https://github.com/apoorvkhare07/Chaoss-Microtasks/tree/master/microtask_3) directory. It also contains a csv file with the final result.
+
+I have analysed all the repositories of a particular organization. We can use it for any organisation and can be extended to multiple organisation too.
+I have used [p2o.py](https://grimoirelab.gitbooks.io/tutorial/grimoireelk/a-simple-dashboard.html) for data retrieval,enriching data and uploading it to Elasticsearch in order to count the commits authored.
+Elasticseacrh api [Elasticsearch_dsl](https://grimoirelab.gitbooks.io/tutorial/python/elasticsearch-dsl.html) for searching and quering data in elasticsearch indices.
+
+I have used [github developers api](https://developer.github.com/v3/) to retrieve repositories details from github.
+In order to measure data relevant to Pull requests,Issues etc. 
+Also I have used python libraries like pandas, datetime for visualizing data in form of tables and generaating csv file.
+
+In order to run the [notebook](https://github.com/apoorvkhare07/Chaoss-Microtasks/blob/master/microtask_3/Microtask_3.ipynb), download it and replace `url` with the url of the github organisation whose repositories you want to analyse, replace `raw_index` and `enriched_index` with your desired index names and run the script to get the desired result.
+
+I have analysed [CHAOSS](https://github.com/chaoss/) organisation.
+
+*__Final Output__*
+
+Analysis of Repositories
+![Analysis of Repositories: ](https://github.com/apoorvkhare07/Chaoss-Microtasks/blob/master/microtask_3/repo_analysis.png  ) 
+
+
 
 ---
 
